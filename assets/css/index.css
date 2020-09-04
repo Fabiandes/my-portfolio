@@ -1,0 +1,85 @@
+html, body {
+    height: 100%;
+    margin: 0px;
+}
+
+body{
+    padding: 0 10rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+.jumbotron{
+    padding-top: 10rem;
+    width: 60vh;
+}
+
+.jumbotron p, a {
+    font-weight:  400;
+    line-height: 3rem;
+    font-size: 1.5rem;
+}
+
+.jumbotron h1 {
+    font-size: 4rem;
+}
+
+.btn{
+    display: block;
+
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 500;
+
+    border-radius: .7rem;
+    border: 5px solid black;
+
+    width: 7rem;
+    padding: .7rem 1rem;
+    margin: 4rem 0;
+}
+
+.social-rail{
+    margin: 4rem 0;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.rail-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    font-size: 1.5rem;
+}
+
+.rail-icon, .nav-icon{
+    height: 3rem;
+    margin-right: 1rem;
+}
+
+a{
+    color: black;
+    display: block;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2rem 0;
+}
+
+.nav-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 30%;
+}
+
+.nav-links a{
+    text-decoration: none;
+}
